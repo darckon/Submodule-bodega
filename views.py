@@ -5,4 +5,4 @@ from django.shortcuts import render
 
 def dashboard(request):
 	context = {'welcome': True}
-	return render(request, 'agenda/templates/index.html', context)
+	return render(request, 'bodega/templates/index.html', context)
